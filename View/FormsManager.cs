@@ -2,13 +2,29 @@
 {
 	public static class FormsManager
 	{
-		public static Form _mainForm;
-
+		public static MainForm _mainForm;
 		public static Form _showForm;
+		public static LogForm _logForm;
 
 		public static void ShowImage(Image img)
 		{
 			ShowImage((Bitmap)img);
+		}
+
+		public static void OpenLogForm()
+		{
+			_mainForm.Invoke(new Action(() =>
+			{
+				if (_logForm == null || _logForm.IsDisposed)
+				{
+					_logForm = new LogForm();
+					_logForm.BringToFront();
+					_logForm.Show();
+					_logForm.WindowState = FormWindowState.Normal;
+					_logForm.Location = new Point(-7, 0);
+					_logForm.rtb.ForeColor = Color.FromArgb(0, 255, 0);
+				}
+			}));
 		}
 
 		public static void ShowImage(Bitmap bmp)
