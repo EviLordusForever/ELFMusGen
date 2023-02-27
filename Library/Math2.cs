@@ -1,4 +1,4 @@
-using static AbsurdMoneySimulations.Logger;
+using static ELFMusGen.Logger;
 
 namespace Library
 {

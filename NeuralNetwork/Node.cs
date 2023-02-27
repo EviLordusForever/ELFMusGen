@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Library;
 
-namespace AbsurdMoneySimulations
+namespace ELFMusGen
 {
 	public class Node
 	{

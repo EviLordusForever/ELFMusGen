@@ -1,6 +1,6 @@
 ﻿using Library;
 
-namespace AbsurdMoneySimulations
+namespace ELFMusGen
 {
 	public class LayerPerceptron : Layer
 	{

@@ -1,8 +1,8 @@
-using static AbsurdMoneySimulations.Logger;
+using static ELFMusGen.Logger;
 using Newtonsoft.Json;
 using Library;
 
-namespace AbsurdMoneySimulations
+namespace ELFMusGen
 {
 	public class Tester
 	{

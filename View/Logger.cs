@@ -1,4 +1,4 @@
-﻿namespace AbsurdMoneySimulations
+﻿namespace ELFMusGen
 {
 	public static class Logger
 	{

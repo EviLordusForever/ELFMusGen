@@ -1,8 +1,8 @@
 ﻿using System;
-using static AbsurdMoneySimulations.Logger;
+using static ELFMusGen.Logger;
 
 
-namespace AbsurdMoneySimulations
+namespace ELFMusGen
 {
 	public static class Builder
 	{

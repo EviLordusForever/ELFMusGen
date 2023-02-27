@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
-using static AbsurdMoneySimulations.Logger;
-using static AbsurdMoneySimulations.Params;
+using static ELFMusGen.Logger;
+using static ELFMusGen.Params;
 using Library;
 
-namespace AbsurdMoneySimulations
+namespace ELFMusGen
 {
 	public class NN
 	{

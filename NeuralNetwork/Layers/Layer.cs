@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace AbsurdMoneySimulations
+namespace ELFMusGen
 {
 	public abstract class Layer
 	{
