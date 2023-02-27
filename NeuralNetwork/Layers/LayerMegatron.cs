@@ -46,7 +46,7 @@ namespace AbsurdMoneySimulations
 
 		public override void Dropout()
 		{
-			//How better to dropout megatron?
+			//How better to dropout megatron??
 			if (_dropoutProbability > 0)
 				for (int i = 0; i < _dropoutLayer.Length; i++)
 					_dropoutLayer[i] = Math2.rnd.NextSingle() <= _dropoutProbability;
